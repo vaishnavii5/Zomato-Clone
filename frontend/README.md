@@ -1,8 +1,41 @@
-# React + Vite
+# Zomato-Clone Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ This website is built using React and Vite, ensuring a fast and responsive user experience. The project aims to replicate the core functionalities of the frontend of Zomato app, including restaurant listings, user reviews, and filter functionalities.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/vaishnavii5/Zomato-Clone.git
+   cd Zomato-Clone/frontend
+   ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Run the development server:**
+    ```bash
+    npm start
+    ```
+
+## Features
+
+- **Navigation Bar**: Implementation of a responsive navigation bar.
+
+- **Setup React Router**: Integrating React Router for navigation between pages. The main pages are Home, Cart and Checkout.
+
+- **Menu Items**: Used for displaying menu items dynamically. Stores the component to list all food items, with a filter function.
+
+- **Footer**: Simple footer with contact information and about the website.
+
+- **App Download Component**: Component for additional download functionality for the mobile app on play store.
+
+- **Responsive**: Ensuring the website is responsive and accessible on all devices.
+
+- **Popup Sign In / Sign Up Component**: Popup for user authentication and login.
+
+- **Cart Page**: Page to view and manage cart items.
+
+- **Checkout Page**: Page to place and review orders.
