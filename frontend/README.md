@@ -39,3 +39,14 @@
 - **Cart Page**: Page to view and manage cart items.
 
 - **Checkout Page**: Page to place and review orders.
+
+## Customization
+
+Feel free to customize the website according to your preferences and requirements. You can modify the content, styling, and functionality to suit the needs of Edusity University.
+
+## Deployment
+
+When you're ready to deploy the website, run the following command:
+```
+npm run build
+```
