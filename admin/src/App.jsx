@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/Sidebar'
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Add from './pages/Add/Add'
 import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:3000 url={url}"
+  const url = "http://localhost:3000"
 
   return (
     <div>
@@ -23,6 +23,8 @@ const App = () => {
           <Route path="/add" element={<Add url={url}/>}/>
           <Route path="/list" element={<List url={url}/>}/>
           <Route path="/orders" element={<Orders url={url}/>}/>
+          <Route path="/" element={<div>Home Page</div>} /> {/* Default home route */}
+          <Route path="*" element={<div>404 Not Found</div>} /> {/* Catch-all for undefined routes */}
         </Routes>
       </div>
     </div>
