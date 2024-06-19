@@ -23,8 +23,6 @@ const App = () => {
           <Route path="/add" element={<Add url={url}/>}/>
           <Route path="/list" element={<List url={url}/>}/>
           <Route path="/orders" element={<Orders url={url}/>}/>
-          <Route path="/" element={<div>Home Page</div>} /> {/* Default home route */}
-          <Route path="*" element={<div>404 Not Found</div>} /> {/* Catch-all for undefined routes */}
         </Routes>
       </div>
     </div>
